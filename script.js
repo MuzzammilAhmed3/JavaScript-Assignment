@@ -1102,3 +1102,34 @@
 // if (!flag) {
 //   alert(`We are sorry. ${userProduct} is not available in our bakery.`);
 // }
+
+// // TASK # 15
+// let userPassword = prompt("Enter Your Password");
+// let hasAlphabet = false;
+// let hasNumber = false;
+// let startsWithNumber = false;
+
+// for (let i = 0; i < userPassword.length; i++) {
+//   let code = userPassword.charCodeAt(i);
+
+//   // CHECK FOR A-Z or a-z
+//   if ((code >= 65 && code <= 90) || (code >= 97 && code <= 122)) {
+//     hasAlphabet = true;
+//   }
+
+//   // CHECK FOR 0-9
+//   if (code >= 48 && code <= 57) {
+//     hasNumber = true;
+//   }
+
+//   // CHECK ONLY THE FIRST CHARACTER
+//   if (i === 0 && code >= 48 && code <= 57) {
+//     startsWithNumber = true;
+//   }
+// }
+
+// if (userPassword.length >= 6 && hasAlphabet && hasNumber && !startsWithNumber) {
+//   alert("Password Accepted!");
+// } else {
+//   alert("Invalid Password!");
+// }
