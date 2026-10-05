@@ -1057,3 +1057,48 @@
 
 // document.writeln(`Number: ${num}<br>`)
 // document.writeln(`Result: ${convertToString}`)
+
+// // TASK # 13
+
+// // 1st Method
+// // let userName = prompt("Enter Your Username");
+
+// // for (let i = 0; i < userName.length; i++) {
+// //   if (
+// //     userName.charCodeAt(i) === 33 ||
+// //     userName.charCodeAt(i) === 44 ||
+// //     userName.charCodeAt(i) === 46 ||
+// //     userName.charCodeAt(i) === 64
+// //   ) {
+// //     alert("Please Enter a valid username!");
+// //     break;
+// //   }
+// // }
+
+// // 2nd Method
+// let userName = prompt("Enter Your Username");
+
+// for (let i = 0; i < userName.length; i++) {
+//   if ("!,.@".includes(userName[i])) {
+//     alert("Please enter a valid username!");
+//     break;
+//   }
+// }
+
+// // TASK # 14
+// let bakeryProducts = ["cake", "apple pie", "cookie", "chips", "patties"];
+// let userProduct = prompt(
+//   "Welcome to ABC Bakery. What do you want to order Sir/Madam?",
+// ).toLowerCase();
+
+// let flag = false;
+// for (let i = 0; i < bakeryProducts.length; i++) {
+//   if (userProduct === bakeryProducts[i]) {
+//     alert(`${userProduct} is available at index ${i} in our bakery.`);
+//     flag = true;
+//     break;
+//   }
+// }
+// if (!flag) {
+//   alert(`We are sorry. ${userProduct} is not available in our bakery.`);
+// }
