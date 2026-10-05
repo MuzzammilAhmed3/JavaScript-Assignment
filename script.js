@@ -1008,3 +1008,52 @@
 
 // let fullName = firstName.concat(" ", lastName);
 // alert(`Welcome ${fullName}!`);
+
+// // TASK # 7
+// let city = "Hyderabad"
+// document.writeln(`City: ${city} </br>`)
+
+// let updateCity = city.replace("Hyder" , "Islam")
+// document.writeln(`After replacement: ${updateCity}`)
+
+// // TASK # 8
+// let message = "Ali and Sami are best friends. They play cricket and football together.";
+// document.writeln(`Message: ${message} </br>`)
+
+// // let updateMess = message.replace(/and/g , "&") // FIRST METHOD
+// let updateMess = message.replaceAll("and" , "&") // SECOND METHOD
+// document.writeln(`After Updating: ${updateMess}`)
+
+// // TASK # 9
+// let string1 = "472";
+// let convertToNum = Number(string1);
+
+// document.writeln(`Value: ${string1}</br>Type: ${typeof string1}</br>`)
+// document.writeln(`Value: ${string1}</br>Type: ${typeof convertToNum}`)
+
+// // TAKS # 10
+// let userInput = "peanuts"
+// let upperCase = userInput.toUpperCase()
+
+// document.writeln(`User Input: ${userInput}</br>`)
+// // document.writeln(`Upper Case: ${userInput.toUpperCase()}`) // FIRST METHOD
+// document.writeln(`Upper Case: ${upperCase}`) // SECOND METHOD
+
+// // TASK # 11
+// let userInput = prompt("Type anything that you want to convert into Title Case");
+
+// let titleCase = userInput
+//   .toLowerCase()
+//   .split(" ")
+//   .map((word) => word.slice(0, 1).toUpperCase() + word.slice(1))
+//   .join(" ");
+
+// document.writeln(`User Input: ${userInput}<br>`);
+// document.writeln(`Title Case: ${titleCase}`);
+
+// // TASK # 12
+// let num = 35.36;
+// let convertToString = num.toString().replace(".", "");
+
+// document.writeln(`Number: ${num}<br>`)
+// document.writeln(`Result: ${convertToString}`)
