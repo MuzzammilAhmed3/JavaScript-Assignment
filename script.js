@@ -1147,3 +1147,17 @@
 // let lastCharUserInput = userInput[userInput.length - 1];
 
 // document.writeln(`User Input: ${userInput}<br>Last Character of Input: ${lastCharUserInput}`);
+
+// // TASK # 18
+// let sentence = "The quick brown fox jumps over the lazy dog";
+// let words = sentence.toLowerCase().split(" ");
+
+// let count = 0;
+
+// for (let i = 0; i < words.length; i++) {
+//   if (words[i] === "the") {
+//     count++;
+//   }
+// }
+
+// document.writeln(`Text: ${sentence}<br>There are ${count} occurrence(s) of word 'the'`);
