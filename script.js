@@ -1141,3 +1141,9 @@
 // for (let i = 0; i < universityArr.length; i++) {
 //   document.writeln(`${universityArr[i]} <br>`);
 // }
+
+// // TASK # 17
+// let userInput = "Pakistan";
+// let lastCharUserInput = userInput[userInput.length - 1];
+
+// document.writeln(`User Input: ${userInput}<br>Last Character of Input: ${lastCharUserInput}`);
