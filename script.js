@@ -1133,3 +1133,11 @@
 // } else {
 //   alert("Invalid Password!");
 // }
+
+// // TASK # 16
+// let university = "University of Karachi";
+// let universityArr = university.split("");
+
+// for (let i = 0; i < universityArr.length; i++) {
+//   document.writeln(`${universityArr[i]} <br>`);
+// }
