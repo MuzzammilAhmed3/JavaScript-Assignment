@@ -1232,3 +1232,47 @@
 
 // document.writeln(`Secret Number: ${secretNumber}<br>Your Number: ${userNumber}`);
 
+// CHAPTER NO 31 TO 34
+
+// // TASK # 1
+// let now = new Date()
+// document.writeln(now)
+
+// // TASK # 2
+// let now = new Date();
+// let month = now.toLocaleDateString("en-US", { month: "long" });
+
+// document.writeln(`Current Month: ${month}`);
+
+// // TASK # 3
+// let now = new Date();
+// let today = now.toLocaleDateString("en-US", { weekday: "long" });
+
+// let firstThreeLetters = today.slice(0, 3);
+// document.writeln(`Today is ${firstThreeLetters}`);
+
+// // TASK # 4
+
+// // FIRST METHOD:
+// // let now = new Date();
+// // let day = now.toLocaleDateString("en-US", { weekday: "long" });
+
+// // if (day === "Saturday" || day === "Sunday") {
+// //   alert("It's a Fun day!");
+// // }
+
+// // SECOND METHOD:
+// let now = new Date();
+// let day = now.getDay();
+
+// if (day === 0 || day === 6) {
+//   alert("It's a Fun day!");
+// }
+
+// // THIRD METHOD:
+// // let now = new Date();
+// // let day = now.toDateString().slice(0, 3);
+
+// // if (day === "Sat" || day === "Sun") {
+// //   alert("It's a Fun day!");
+// // }
