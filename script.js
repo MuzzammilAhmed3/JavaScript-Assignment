@@ -1161,3 +1161,39 @@
 // }
 
 // document.writeln(`Text: ${sentence}<br>There are ${count} occurrence(s) of word 'the'`);
+
+// CHAPTER NO 26 TO 30
+
+// // TASK # 1
+// let userNum = +prompt("Enter the positive integer");
+
+// let rounfOffval = Math.round(userNum);
+// let floorOffval = Math.floor(userNum);
+// let cielOffval = Math.ceil(userNum);
+
+// document.writeln(
+//   `Number: ${userNum}<br>Round Off Value: ${rounfOffval}<br>Floor Value: ${floorOffval}<br>Ciel Value: ${cielOffval}`,
+// );
+
+// // TASK # 2
+// let userNum = +prompt("Enter the negative integer");
+
+// let rounfOffval = Math.round(userNum);
+// let floorOffval = Math.floor(userNum);
+// let cielOffval = Math.ceil(userNum);
+
+// document.writeln(
+//   `Number: ${userNum}<br>Round Off Value: ${rounfOffval}<br>Floor Value: ${floorOffval}<br>Ciel Value: ${cielOffval}`,
+// );
+
+// // TASK # 3
+// let userNum = prompt("Enter a Number ");
+// let absNum = Math.abs(userNum);
+
+// document.writeln(`The absolute value of ${userNum} is ${absNum}`)
+
+// // TASK # 4
+// let firstDiceValue = Math.floor(Math.random() * 6 + 1);
+// let secondDiceValue = Math.floor(Math.random() * 6 + 1);
+
+// document.writeln(`Random Dice Value: ${firstDiceValue}<br>Random Dice Value: ${secondDiceValue}`)
