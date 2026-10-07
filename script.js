@@ -1197,3 +1197,38 @@
 // let secondDiceValue = Math.floor(Math.random() * 6 + 1);
 
 // document.writeln(`Random Dice Value: ${firstDiceValue}<br>Random Dice Value: ${secondDiceValue}`)
+
+// // TASK # 5
+// let coin = Math.floor(Math.random() * 2 + 1);
+
+// document.writeln(`Count: ${coin} <br>`);
+// if (coin === 2) {
+//   document.writeln("Coin Value: Heads");
+// } else {
+//   document.writeln("Coin Value: Tails");
+// }
+
+// // TASK # 6
+// let randomNum = Math.floor(Math.random() * 100 + 1);
+// document.writeln(`Random Number between 1 & 100 is: ${randomNum}`)
+
+// // TASK # 7
+// let userWeight = prompt("Enter your weight");
+// let weight = parseFloat(userWeight);
+
+// document.writeln(`The weight of user is ${weight} kg.`);
+
+// // TASK # 8
+// let secretNumber = Math.floor(Math.random() * 10) + 1;
+// let userNumber = +prompt("Guess a number between 1 and 10:");
+
+// if (userNumber >= 11 || userNumber <= 0) {
+//   alert("Please enter a number between 1 and 10");
+// } else {
+//   if (userNumber === secretNumber) {
+//     alert("Congratulations! You guess the secret number");
+//   }
+// }
+
+// document.writeln(`Secret Number: ${secretNumber}<br>Your Number: ${userNumber}`);
+
