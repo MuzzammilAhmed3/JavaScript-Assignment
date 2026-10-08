@@ -1505,3 +1505,77 @@
 // let height = 5;
 
 // document.writeln(`Rectangle Area ${rectangleArea(width, height)}`);
+
+// // TASK # 10
+// const checkPalindrome = (str) => {
+//   let reverse = str.split("").reverse().join("");
+
+//   return str === reverse
+// };
+
+// let word = prompt("Enter a word:");
+// document.writeln(checkPalindrome(word) ? "Palindrome" : "Not a Palindrome");
+
+// // TASK # 11
+// let capitalizeWords = (str) => {
+//   return str
+//     .toLowerCase()
+//     .split(" ")
+//     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+//     .join(" ");
+// };
+
+// let text = prompt("Enter a string");
+
+// document.writeln(`Example String: ${text}<br>Expected Output: ${capitalizeWords(text)}`);
+
+// // TASK # 12
+// const longestWord = (str) => {
+//   let words = str.split(" ");
+//   let longest = "";
+
+//   for (let word of words) {
+//     if (word.length > longest.length) {
+//       longest = word;
+//     }
+//   }
+
+//   return longest;
+// };
+
+// let text = prompt("Enter a String:");
+// document.writeln(`Longest Word: ${longestWord(text)}`);
+
+// // TASK # 13
+// function countOccurrences(str, letter) {
+//   let count = 0;
+
+//   for (let i = 0; i < str.length; i++) {
+//     if (str[i] === letter) {
+//       count++;
+//     }
+//   }
+
+//   return count;
+// }
+
+// let str = prompt("Enter a String:");
+// let letter = prompt("Enter a specific letter:");
+
+// document.writeln(
+//   `The occurrences of letter '${letter}' in '${str}' is: ${countOccurrences(str, letter)}`,
+// );
+
+// // TASK # 14
+// function calcCircumference(radius) {
+//   let circumference = 2 * Math.PI * radius;
+//   document.writeln(`The circumference is ${circumference}<br>`);
+// }
+
+// function calcArea(radius) {
+//   let area = Math.PI * (radius * radius);
+//   document.writeln(`The area is ${area}`);
+// }
+
+// calcCircumference(5);
+// calcArea(5);
