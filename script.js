@@ -1374,3 +1374,134 @@
 //   Late Payment Surcharge: ${latePaymentSurcharge.toFixed(2)}<br>
 //   Gross Amount Payable (after Due Date): ${grossAmount.toFixed(2)}
 // `);
+
+// CHAPTER NO 35 TO 38
+
+// // TASK # 1
+// const displayDate = () => {
+//   let now = new Date();
+//   document.writeln(now);
+// };
+
+// displayDate();
+
+// // TASK # 2
+// const greet = (firstName, lastName) => {
+//   let fullName = `${firstName} ${lastName}`;
+//   document.writeln(`Hello ${fullName}`);
+// };
+
+// greet("Muzzammil", "Ahmed");
+
+// // TASK # 3
+
+// // METHOD 1
+// // const addition = () => {
+// //   let num1 = +prompt("Enter Num 1");
+// //   let num2 = +prompt("Enter Num 2");
+
+// //   return num1 + num2
+// // };
+
+// // let result = addition()
+// // document.writeln(`Result: ${result}`)
+
+// // METHOD 2
+// const addition = (num1, num2) => num1 + num2;
+
+// let num1 = +prompt("Enter Num 1");
+// let num2 = +prompt("Enter Num 2");
+
+// document.writeln(`Result: ${addition(num1, num2)}`);
+
+// // TASK # 4
+// const calculator = (num1, opt, num2) => {
+//   if (opt === "+") {
+//     return num1 + num2;
+//   } else if (opt === "-") {
+//     return num1 - num2;
+//   } else if (opt === "*") {
+//     return num1 * num2;
+//   } else if (opt === "/") {
+//     return num1 / num2;
+//   } else if (opt === "%") {
+//     return num1 % num2;
+//   } else {
+//     return "Invalid Operator";
+//   }
+// };
+
+// let num1 = +prompt("Enter Num 1");
+// let opt = prompt("Enter the operator");
+// let num2 = +prompt("Enter Num 2");
+
+// document.writeln(`Calculator: ${calculator(num1, opt, num2)}`);
+
+// // TASK # 5
+// const square = (num) => {
+//   return num * num;
+// };
+
+// let num = +prompt("Enter a number:");
+// document.writeln(`Square: ${square(num)}`);
+
+// // TASK # 6
+// const factorial = (num) => {
+//   let result = 1;
+
+//   for (let i = 1; i <= num; i++) {
+//     result *= i;
+//   }
+
+//   return result;
+// };
+
+// let num = +prompt("Enter a number:");
+// document.writeln(`Factorial: ${factorial(num)}`);
+
+// // TASK # 7
+// const counting = (start, end) => {
+//   for (let i = start; i <= end; i++) {
+//     document.writeln(i + "<br>");
+//   }
+// };
+
+// let start = +prompt("Enter a Starting Number");
+// let end = +prompt("Enter a Ending Number");
+
+// counting(start, end);
+
+// // TASK # 8
+// const calculateHypotenuse = (base, perpendicular) => {
+//   const calculateSquare = (num) => {
+//     return num * num;
+//   };
+
+//   let hypotenuse = Math.sqrt(calculateSquare(base) + calculateSquare(perpendicular));
+
+//   return hypotenuse;
+// };
+
+// let base = +prompt("Enter Base");
+// let perpendicular = +prompt("Enter Perpendicular");
+
+// document.writeln(`Hypotenuse: ${calculateHypotenuse(base, perpendicular)}`);
+
+// // TASK # 9
+
+// // Arguments As Value
+// // const rectangleArea = (width, height) => {
+// //   return width * height;
+// // };
+
+// // document.writeln(`Rectangle Area ${rectangleArea(10, 5)}`);
+
+// // Arguments As Variables
+// const rectangleArea = (width, height) => {
+//   return width * height;
+// };
+
+// let width = 10;
+// let height = 5;
+
+// document.writeln(`Rectangle Area ${rectangleArea(width, height)}`);
