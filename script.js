@@ -1276,3 +1276,57 @@
 // // if (day === "Sat" || day === "Sun") {
 // //   alert("It's a Fun day!");
 // // }
+
+// // TASK # 5
+// let date = new Date();
+// let currentDate = date.getDate();
+
+// if (currentDate < 16) {
+//   document.writeln("First fifteen days of the month");
+// } else {
+//   document.writeln("Last days of the month");
+// }
+
+// // TASK # 6
+// let now = new Date();
+// let miliSecSince1970 = now.getTime();
+// let minSince1970 = miliSecSince1970 / (1000 * 60);
+
+// document.writeln(
+//   `Current Date: ${now}<br>Elapsed miliseconds Since January 1, 1970:  ${miliSecSince1970}<br>Elapsed minutes Since January 1, 1970: ${minSince1970}`,
+// );
+
+// // TASK # 7
+// let now = new Date();
+// let currentHour = now.getHours();
+
+// if (currentHour  < 12) {
+//   document.writeln("It's AM.");
+// } else {
+//   document.writeln("It's PM.");
+// }
+
+// // TASK # 8
+// let laterDate = new Date(2020, 11, 31);
+// document.writeln(`Later Date: ${laterDate}`);
+
+// // TASK # 9
+// let now = new Date().getTime();
+// let firstRamadan = new Date(2015, 5, 18).getTime();
+
+// let diff = now - firstRamadan;
+// let daysPassed = Math.floor(diff / (1000 * 60 * 60 * 24));
+
+// document.writeln(`${daysPassed} days have passed since 1st Ramadan, 2015.`);
+
+// // TASK # 10
+// let refDate = new Date(2015, 11, 5, 22, 50, 16);
+// let begOf2015 = new Date(2015, 0, 1);
+
+// let diff = refDate.getTime() - begOf2015.getTime();
+// let secondsPassed = Math.floor(diff / 1000);
+
+// document.writeln(
+//   `On reference date ${refDate}, ${secondsPassed} seconds had passed since beginning of 2015`,
+// );
+
