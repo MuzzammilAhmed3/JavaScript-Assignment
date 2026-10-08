@@ -1330,3 +1330,47 @@
 //   `On reference date ${refDate}, ${secondsPassed} seconds had passed since beginning of 2015`,
 // );
 
+// // TASK # 11
+// let now = new Date();
+// document.writeln(`Current Date: ${now}<br>`);
+
+// now.setHours(now.getHours() - 1);
+// document.writeln(`1 Hour Ago, It was ${now}`);
+
+// // TASK # 12
+// let now = new Date();
+// document.writeln(`Current Date: ${now}<br>`);
+
+// now.setFullYear(now.getFullYear() - 100);
+// document.writeln(`100 Years Ago, It was ${now}`);
+// alert(now);
+
+// // TASK # 13
+// let userAge = +prompt("Enter Your Age");
+
+// let userBirthYear = new Date().getFullYear() - userAge;
+
+// document.writeln(`Your Age is ${userAge}<br>Your Birth Year is ${userBirthYear}`)
+
+// // TASK # 14
+// let customerName = "ABC Customer";
+// let currentMonth = new Date().toLocaleString("en-US", { month: "long" });
+
+// let numberOfUnits = 410;
+// let chargesPerUnit = 16;
+
+// let netAmount = numberOfUnits * chargesPerUnit;
+// let latePaymentSurcharge = 350;
+// let grossAmount = netAmount + latePaymentSurcharge;
+
+// document.writeln(`
+//   <h2>K-Electric Bill</h2>
+
+//   Customer Name: ${customerName}<br>
+//   Current Month: ${currentMonth}<br>
+//   Number of Units: ${numberOfUnits}<br>
+//   Charges per Unit: ${chargesPerUnit.toFixed(2)}<br><br>
+//   Net Amount Payable (within Due Date): ${netAmount.toFixed(2)}<br>
+//   Late Payment Surcharge: ${latePaymentSurcharge.toFixed(2)}<br>
+//   Gross Amount Payable (after Due Date): ${grossAmount.toFixed(2)}
+// `);
